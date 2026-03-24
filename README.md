@@ -10,4 +10,4 @@ Primera versión Quarto Book para estudiantes de fonoaudiologia.
 - `references.bib`: bibliografia centralizada.
 - `apendice-r.qmd`: guia breve de reproducibilidad en R.
 
-link libro: https://damian-mv.github.io/Investigacion-fonoaudiolog-a/
+Link libro: https://damian-mv.github.io/Investigacion-fonoaudiolog-a/
