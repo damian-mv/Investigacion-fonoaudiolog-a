@@ -1,0 +1,49 @@
+---
+title: "Prefacio"
+---
+
+# Presentación del libro
+
+Este libro fue concebido como una guía de trabajo para estudiantes de pregrado de fonoaudiología que se encuentran formulando, desarrollando o escribiendo su tesis de grado. Su propósito es acompañar el trayecto completo, desde la delimitación del problema de investigación hasta la comunicación científica de resultados, con ejemplos situados en lenguaje y comunicación, audiología, así como en envejecimiento y cognición.
+
+La propuesta combina explicación conceptual, criterios metodológicos, ejemplos disciplinares y código R reproducible. El foco no está solo en "cumplir" con una tesis, sino en aprender a pensar como investigadora o investigador en un campo clínico y científico en permanente desarrollo [@creswell2023; @apa2020].
+
+# Por qué investigar en fonoaudiología
+
+La investigación en fonoaudiología es relevante porque permite mejorar la calidad de las evaluaciones, intervenciones y decisiones basadas en evidencia. En el contexto chileno, esto es especialmente importante para responder preguntas locales sobre acceso, pertinencia cultural, trayectorias educativas, envejecimiento, cognición, tamizaje auditivo e intervenciones en lenguaje y comunicación.
+
+::: {.callout-important}
+**Para recordar:** Investigar en fonoaudiología no es una tarea separada de la práctica profesional. Es una forma de fortalecer decisiones clínicas, educativas y de salud pública.
+:::
+
+# Cómo está organizado el libro
+
+La Parte I aborda la construcción del problema, los objetivos y la selección del diseño. La Parte II profundiza en la redacción del manuscrito, las guías de reporte, la publicación científica y la ciencia abierta. Al final se incluyen una sección de referencias y un apéndice de R orientado a la reproducibilidad.
+
+# Convenciones de uso
+
+Este libro usa callouts para destacar ideas importantes, recomendaciones prácticas, errores frecuentes y conceptos clave. Los fragmentos de código R son reproducibles, están comentados en español y utilizan datos simulados con fines didácticos. Cada capítulo cierra con al menos una tabla resumen para facilitar el estudio y la revisión.
+
+::: {.callout-note}
+**Concepto clave:** Cuando veas una cita en formato `[@clave]`, la referencia completa se encuentra en `references.bib` y se listará en la sección final del libro.
+:::
+
+# Cómo citar este libro
+
+Medina Valdebenito, D. (2026). *Diseño de investigación y comunicación científica: Guía para estudiantes de fonoaudiología* (Versión Quarto Book). GitHub Pages. https://[URL-DEL-SITIO]
+
+# Licencia
+
+Este material se distribuye bajo licencia Creative Commons Attribution 4.0 International (CC BY 4.0). Puedes compartirlo y adaptarlo, siempre que otorgues la atribución correspondiente.
+
+## Mapa de capítulos
+
+| Capítulo | Foco principal | Pregunta orientadora |
+|---|---|---|
+| 1 | Problema y pregunta de investigación | ¿Qué vale la pena estudiar y cómo formularlo? |
+| 2 | Objetivos, hipótesis y variables | ¿Qué se busca demostrar, describir o explicar? |
+| 3 | Diseños de investigación | ¿Qué estrategia metodológica conviene usar? |
+| 4 | Manuscrito científico | ¿Cómo se escribe un artículo claro y riguroso? |
+| 5 | Guías de reporte | ¿Qué estándares corresponden según el diseño? |
+| 6 | Publicación | ¿Cómo se elige una revista y se responde a revisores? |
+| 7 | Ciencia abierta | ¿Cómo mejorar transparencia y reproducibilidad? |

@@ -1,0 +1,192 @@
+---
+title: "Capítulo 2. Objetivos, hipótesis y variables"
+---
+
+# Objetivo general y objetivos específicos
+
+Los objetivos traducen la pregunta de investigación en acciones observables. El objetivo general expresa la finalidad principal del estudio, mientras que los objetivos específicos descomponen esa meta en pasos analíticos o descriptivos. Su función no es adornar el planteamiento del problema, sino orientar con precisión qué se hará, con qué foco y con qué alcance.
+
+En fonoaudiología, conviene redactarlos indicando qué se medirá, en quiénes y en qué contexto. Por ejemplo, "evaluar la asociación entre vocabulario receptivo y comprensión lectora en escolares chilenos de tercero básico", "examinar la relación entre funcionamiento cognitivo y comprensión del habla en ruido en personas mayores con hipoacusia" o "determinar si la memoria de trabajo predice el rendimiento en tareas de fluidez verbal en personas mayores chilenas". Este nivel de precisión es especialmente necesario cuando se trabaja con variables del desarrollo lingüístico, la producción del lenguaje o con constructos complejos como la cognición, cuya definición conceptual y operacional debe quedar explicitada desde el inicio [@bedore2001grammatical; @castillaearls2023morphosyntax].
+
+Un objetivo bien formulado facilita la coherencia interna del estudio. Si el objetivo es descriptivo, el análisis y la conclusión deben respetar ese alcance. Si el objetivo es comparativo o predictivo, las decisiones metodológicas deben estar a esa altura.
+
+# Cómo redactar buenos objetivos
+
+Una regla práctica consiste en escribir objetivos que respondan tres preguntas: qué se hará, en quiénes y con qué propósito analítico. Conviene evitar verbos vagos como "conocer", "estudiar" o "comprender" cuando no indican con claridad el tipo de operación investigativa. En su lugar, es preferible utilizar verbos que anticipen el alcance del estudio, como describir, comparar, examinar, determinar o evaluar.
+
+::: {.callout-tip}
+**Consejo para tu tesis:** Si al leer un objetivo no puedes imaginar qué análisis podría responderlo, probablemente aún está demasiado amplio.
+:::
+
+# Hipótesis
+
+No toda tesis requiere hipótesis. Estas suelen ser apropiadas en estudios analíticos, comparativos o explicativos. En estudios descriptivos o exploratorios, puede bastar con objetivos y preguntas. Cuando se formulan, es importante distinguir entre hipótesis nula, alternativa, direccional y no direccional.
+
+Una hipótesis direccional anticipa el sentido del hallazgo, mientras que una no direccional solo plantea que existirá una diferencia o asociación. La hipótesis nula plantea ausencia de efecto o asociación, y la alternativa expresa la expectativa principal del estudio. Su formulación debe ser congruente con la literatura previa, de modo que la hipótesis no sea solo una intuición, sino una expectativa razonada.
+
+::: {.callout-note}
+**Concepto clave:** Una hipótesis debe ser coherente con el diseño, el nivel de medición de las variables y el análisis estadístico previsto.
+:::
+
+## Ejemplos de hipótesis
+
+- Hipótesis nula: no existirán diferencias en comprensión del habla en ruido entre personas mayores usuarias y no usuarias de audífonos.
+- Hipótesis alternativa no direccional: existirán diferencias en comprensión del habla en ruido entre ambos grupos.
+- Hipótesis alternativa direccional: las personas mayores usuarias de audífonos presentarán mejor comprensión del habla en ruido que las no usuarias.
+- Hipótesis alternativa direccional en producción del lenguaje: un mejor desempeño en memoria de trabajo se asociará con mayor rendimiento en fluidez verbal semántica.
+
+# Variables en fonoaudiología
+
+Una variable independiente opera como predictor o condición de interés; la dependiente representa el resultado; las covariables ayudan al control estadístico; y las variables mediadoras o moderadoras permiten examinar mecanismos o condiciones de cambio. La distinción entre definición conceptual y operacional es central para construir mediciones válidas.
+
+Definir una variable de manera conceptual implica explicar qué significa en el marco teórico del estudio. Definirla operacionalmente implica especificar cómo se observará o medirá en la práctica. Por ejemplo, "reserva cognitiva" puede definirse conceptualmente como el conjunto de recursos acumulados que modulan la tolerancia al daño o al envejecimiento cerebral, pero operacionalmente podría medirse mediante años de escolaridad, ocupación y actividades cognitivamente estimulantes. Del mismo modo, variables lingüísticas como morfología, fonología, desarrollo bilingüe o producción del lenguaje requieren decisiones operacionales explícitas sobre tareas, puntajes e indicadores observados. En el caso de la fluidez verbal, por ejemplo, la definición operacional puede especificar tipo de tarea, tiempo de administración, criterio de puntuación y forma de tratar perseveraciones o intrusiones [@fabiano2010phonological; @castillaearls2023morphosyntax].
+
+## Niveles de medición
+
+El nivel de medición de una variable condiciona qué operaciones son válidas y qué análisis resultan apropiados. En tesis de fonoaudiología, este punto suele subestimarse, pero es decisivo para evitar errores posteriores.
+
+- Nominal: categorías sin orden inherente, como tipo de pérdida auditiva.
+- Ordinal: categorías con orden, pero sin distancia equivalente garantizada, como grados de severidad.
+- Intervalo: valores con distancias interpretables, pero sin cero absoluto, como algunos puntajes estandarizados.
+- Razón (continua): valores con cero absoluto y operaciones proporcionales válidas, como edad, tiempo de uso diario o umbral tonal en ciertas escalas de registro.
+
+## Apoyo visual con la lógica de SEM y `lavaan`
+
+En esta etapa también puede ser muy útil introducir, al menos de manera conceptual, la nomenclatura gráfica empleada en modelos de ecuaciones estructurales. Aunque una tesis de pregrado no necesariamente utilizará SEM, este lenguaje visual ayuda a comprender de manera ordenada cómo se relacionan predictores, resultados, covariables y variables latentes.
+
+En los diagramas de trayectorias, las variables observadas suelen representarse con rectángulos, las variables latentes con elipses, y las flechas indican dirección de la relación. Una flecha de una punta suele leerse como efecto o predicción, mientras que una flecha de doble punta representa covariación o correlación. Esta forma de organizar relaciones resulta especialmente didáctica cuando el estudiante necesita distinguir entre medición de un constructo, predicción entre variables y posibles mecanismos de mediación.
+
+::: {.callout-tip}
+**Consejo para tu tesis:** Aunque no vayas a estimar un modelo SEM, dibujar tu pregunta con la lógica de `lavaan` puede ayudarte a aclarar qué variables son observadas, cuáles son latentes, qué relaciones son centrales y cuáles solo deben controlarse.
+:::
+
+Por ejemplo, en un estudio sobre lenguaje, una variable latente como "habilidad lingüística" podría estar representada por indicadores observados como vocabulario receptivo, conciencia fonológica y comprensión auditiva. Si el foco está en producción del lenguaje, también puede ser útil pensar la fluidez verbal como una variable observada de resultado, o bien como parte de un conjunto de indicadores de producción léxica. En audiología, un constructo como "adherencia al uso de audífonos" podría pensarse como relacionado con tiempo de uso diario, seguimiento clínico y percepción de beneficio. En envejecimiento y cognición, una variable latente como "función cognitiva" podría modelarse a partir de indicadores como memoria de trabajo, atención y velocidad de procesamiento.
+
+## Ejemplos conceptuales de SEM aplicados a fluidez verbal
+
+La lógica gráfica de SEM también puede ayudar a distinguir distintos tipos de relaciones entre variables en tareas de producción del lenguaje. Por ejemplo:
+
+- Correlación: la fluidez verbal y la memoria de trabajo covarían, sin suponer dirección causal.
+- Predicción: la memoria de trabajo y la escolaridad se modelan como predictores de la fluidez verbal.
+- Mediación: la memoria de trabajo media la relación entre aislamiento social y fluidez verbal.
+- Moderación: la escolaridad o la reserva cognitiva modifican la fuerza de la relación entre memoria de trabajo y fluidez verbal.
+
+```{r eval=FALSE}
+# Ejemplos simples de sintaxis lavaan
+library(lavaan)
+
+modelo_correlacion <- '
+  fluidez_verbal ~~ memoria_trabajo
+'
+
+modelo_prediccion <- '
+  fluidez_verbal ~ memoria_trabajo + escolaridad
+'
+
+modelo_mediacion <- '
+  velocidad_procesamiento ~ memoria_trabajo
+  fluidez_verbal ~ velocidad_procesamiento + memoria_trabajo
+'
+
+modelo_moderacion <- '
+  fluidez_verbal ~ memoria_trabajo * escolaridad
+'
+
+modelo_latente <- '
+  habilidad_linguistica =~ vocabulario + conciencia_fonologica + comprension_auditiva
+  comprension_lectora ~ habilidad_linguistica + edad_meses
+'
+```
+
+## Regresión lineal simple con datos simulados
+
+```{r}
+# Regresion lineal simple con datos simulados
+library(tidyverse)
+library(broom)
+library(gt)
+
+set.seed(2024)
+datos_fonologia <- tibble(
+  edad_meses = round(runif(80, 48, 72)),
+  puntaje_fonologico = 20 + 0.75 * edad_meses + rnorm(80, 0, 8)
+)
+
+modelo_edad <- lm(puntaje_fonologico ~ edad_meses, data = datos_fonologia)
+
+tidy(modelo_edad, conf.int = TRUE) |>
+  mutate(across(where(is.numeric), \(x) round(x, 3))) |>
+  gt() |>
+  tab_header(
+    title = "Tabla 2",
+    subtitle = md("*Regresion lineal: puntaje fonologico predicho por edad (meses)*")
+  ) |>
+  cols_label(
+    term = "Predictor",
+    estimate = "B",
+    std.error = "EE",
+    statistic = "t",
+    p.value = "p",
+    conf.low = "IC 95% inf",
+    conf.high = "IC 95% sup"
+  ) |>
+  tab_source_note("Nota. Datos simulados con fines didacticos. EE = error estandar.")
+```
+
+Tabla 4
+
+*Verbos según alcance del objetivo*
+
+| Nivel de alcance | Verbos recomendados | Ejemplo en fonoaudiología |
+|---|---|---|
+| Descriptivo | Describir, caracterizar, estimar | Describir el perfil fonológico de niños con TDL |
+| Correlacional | Examinar, analizar, explorar | Examinar la asociación entre memoria de trabajo y fluidez verbal |
+| Comparativo | Comparar, contrastar, evaluar diferencias | Comparar el umbral auditivo entre usuarios y no usuarios |
+| Predictivo | Determinar, predecir, modelar | Predecir el rendimiento en fluidez verbal a partir de variables cognitivas y educativas |
+| Evaluativo | Evaluar la efectividad, determinar el efecto | Evaluar un programa de intervención en producción del lenguaje |
+
+Tabla 5
+
+*Tipos de variable con ejemplos clínicos*
+
+| Tipo | Rol en el modelo | Ejemplo en lenguaje | Ejemplo en audiología |
+|---|---|---|---|
+| Independiente | Predictora | Memoria de trabajo | Tipo de pérdida auditiva |
+| Dependiente | Resultado | Fluidez verbal | Umbral auditivo |
+| Mediadora | Mecanismo intermedio | Velocidad de procesamiento | Tiempo de uso diario del audífono |
+| Moderadora | Condiciona la relación | Escolaridad o reserva cognitiva | Edad de diagnóstico |
+| Covariable | Control estadístico | Edad cronológica | Años de escolaridad |
+
+Tabla 6
+
+*Ejemplos de variables desde envejecimiento, cognición y producción del lenguaje*
+
+| Tipo | Ejemplo |
+|---|---|
+| Independiente | Memoria de trabajo, uso de audífonos o nivel de estimulación cognitiva |
+| Dependiente | Fluidez verbal, comprensión del habla en ruido o desempeño comunicativo |
+| Mediadora | Velocidad de procesamiento |
+| Moderadora | Escolaridad, edad o reserva cognitiva |
+| Covariable | Sexo, comorbilidades, depresión o umbral tonal promedio |
+
+Tabla 7
+
+*Relaciones SEM aplicadas a fluidez verbal*
+
+| Relación | Notación simplificada | Interpretación |
+|---|---|---|
+| Correlación | `fluidez_verbal <-> memoria_trabajo` | Ambas variables covarían |
+| Predicción | `fluidez_verbal ~ memoria_trabajo + escolaridad` | Dos predictores explican el resultado |
+| Mediación | `memoria_trabajo -> velocidad_procesamiento -> fluidez_verbal` | Parte del efecto pasa por un mecanismo intermedio |
+| Moderación | `fluidez_verbal ~ memoria_trabajo * escolaridad` | El efecto cambia según otra variable |
+
+Tabla 8
+
+*Niveles de medición con ejemplos en fonoaudiología*
+
+| Nivel | Descripción | Ejemplo |
+|---|---|---|
+| Nominal | Categorías sin orden | Tipo de diagnóstico o presencia de audífono |
+| Ordinal | Categorías ordenadas | Grado de severidad o nivel educativo agrupado |
+| Intervalo | Distancias interpretables sin cero absoluto claro | Puntaje estandarizado de una prueba |
+| Razón | Cero absoluto y comparaciones proporcionales | Edad, meses de seguimiento, horas de uso diario |

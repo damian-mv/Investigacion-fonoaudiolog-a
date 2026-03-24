@@ -1,0 +1,9 @@
+_book/
+.quarto/
+site_libs/
+*_files/
+*.html
+*.tex
+presentacion-semana-1.qmd
+presentacion-semana-2.qmd
+slides-docentes.css

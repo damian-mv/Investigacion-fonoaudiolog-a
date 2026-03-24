@@ -1,0 +1,48 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Diseño de Investigación y Comunicación Científica"
+  subtitle: "Guía para estudiantes de Fonoaudiología"
+  author: "Damian Medina Valdebenito"
+  date: today
+  chapters:
+    - index.qmd
+    - part: "Parte I: Del Problema al Diseño"
+      chapters:
+        - 01-pregunta.qmd
+        - 02-objetivos.qmd
+        - 03-disenos.qmd
+    - part: "Parte II: Del Diseño al Manuscrito"
+      chapters:
+        - 04-manuscrito.qmd
+        - 05-reporte.qmd
+        - 06-publicacion.qmd
+        - 07-ciencia-abierta.qmd
+    - referencias.qmd
+    - apendice-r.qmd
+
+bibliography: references.bib
+csl: apa.csl
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-tools: true
+    lang: es
+  pdf:
+    documentclass: scrbook
+    papersize: letter
+    fontsize: 12pt
+    toc: true
+    number-sections: true
+
+execute:
+  echo: true
+  warning: false
+  message: false

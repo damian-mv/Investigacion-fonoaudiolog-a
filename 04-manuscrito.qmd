@@ -1,0 +1,102 @@
+---
+title: "Capítulo 4. Estructura del manuscrito científico"
+---
+
+# El manuscrito como argumento científico
+
+Un manuscrito científico no es una crónica del proceso de tesis ni un informe clínico extendido. Es un texto argumentativo cuya función es convencer a una comunidad académica de que la pregunta fue relevante, el método fue apropiado y la interpretación de los resultados es defendible a la luz de la evidencia disponible [@apa2020; @icmje_recommendations].
+
+En fonoaudiología, este punto es crucial porque muchas tesis nacen de contextos asistenciales o educativos. Eso puede llevar a escribir desde la experiencia práctica, pero un manuscrito exige dar un paso adicional: transformar esa experiencia en un problema justificable, metodológicamente abordable y académicamente comunicable. Esto vale tanto para estudios sobre desarrollo del lenguaje como para investigaciones sobre envejecimiento, audición y cognición en personas mayores.
+
+# La lógica de IMRaD
+
+La estructura IMRaD organiza el manuscrito en Introducción, Método, Resultados y Discusión. Esta forma no es una convención arbitraria; responde a una secuencia de preguntas que el lector necesita resolver: por qué se hizo el estudio, cómo se hizo, qué se encontró y qué significan esos hallazgos.
+
+Una buena tesis no solo "llena" estas secciones. Las articula de manera coherente. El objetivo planteado al final de la introducción debe reaparecer en el método como decisiones operativas, en los resultados como evidencia y en la discusión como interpretación y balance crítico.
+
+# Introducción: construir el problema
+
+La introducción debe avanzar desde antecedentes generales hacia un vacío específico de conocimiento. En lugar de describir extensamente una condición, conviene seleccionar antecedentes que ayuden a construir una brecha empírica, teórica o contextual. El cierre ideal de esta sección explicita el objetivo, y cuando corresponde, la hipótesis del estudio. Por ejemplo, en un estudio sobre personas mayores con hipoacusia, la introducción podría articular evidencia sobre esfuerzo auditivo, envejecimiento cognitivo y comprensión del habla en ruido hasta justificar una pregunta local sobre su asociación en contexto chileno [@lin2013hearing; @stenback2021contribution].
+
+::: {.callout-warning}
+**Error frecuente:** En tesis de pregrado es habitual describir ampliamente una condición clínica, pero no construir el "gap" que justifica el estudio ni cerrar la introducción con un objetivo preciso.
+:::
+
+# Método: hacer visible la ruta del estudio
+
+El método debe permitir que otra persona comprenda con suficiente detalle cómo se obtuvieron los datos. Esto incluye participantes, criterios de inclusión y exclusión, diseño, instrumentos, procedimiento, consideraciones éticas y estrategia de análisis. Omitir información sobre instrumentos o condiciones de aplicación puede afectar seriamente la interpretación de resultados. Si el foco está en envejecimiento y cognición, además conviene describir con precisión criterios funcionales, comorbilidades relevantes, condiciones sensoriales y características del contexto de evaluación.
+
+Una regla útil es pensar que el método debe ser replicable en lo sustancial, aunque no necesariamente palabra por palabra. La transparencia metodológica fortalece la credibilidad del estudio.
+
+# Resultados: reportar antes de interpretar
+
+La sección de resultados debe responder directamente a los objetivos del estudio. Conviene empezar con descriptivos de la muestra y luego avanzar hacia los análisis principales. En esta etapa se reporta evidencia, no explicaciones causales ni valoraciones clínicas extensas.
+
+Cuando sea pertinente, es recomendable informar medidas de tendencia central, dispersión, intervalos de confianza y tamaños de efecto. Esto ayuda a evaluar no solo si una diferencia existe, sino cuán relevante puede ser en términos clínicos o educativos. En estudios con personas mayores, también puede ser importante describir heterogeneidad funcional, variabilidad cognitiva y posibles efectos de techo o piso en instrumentos breves.
+
+# Discusión: interpretar con prudencia
+
+La discusión retoma los hallazgos principales, los contextualiza en relación con la literatura, reconoce limitaciones y explicita implicancias. Una discusión sólida no exagera resultados ni presenta asociaciones como causalidad. También evita convertirse en un listado desordenado de estudios previos. Por ejemplo, si una tesis encuentra que la memoria de trabajo se asocia con la comprensión del habla en ruido, la discusión debe explicar qué significa ese hallazgo para la evaluación audiológica y cognitiva, sin concluir de manera indebida que una variable "causa" la otra.
+
+::: {.callout-tip}
+**Consejo para tu tesis:** Si no sabes cómo iniciar la discusión, parte con tres preguntas: ¿cuál fue el hallazgo principal, con qué literatura dialoga y qué límite obliga a interpretarlo con cautela?
+:::
+
+# Título, resumen, tablas y figuras
+
+El título debe ser informativo y evitar vaguedades. El resumen debe condensar el problema, el objetivo, el método, los resultados principales y una conclusión prudente. Las tablas y figuras deben complementar el texto, no duplicarlo. Según APA 7, cada elemento visual debe poder leerse de forma relativamente autónoma, con títulos claros y notas cuando corresponda [@apa2020].
+
+## Tabla descriptiva para un manuscrito
+
+```{r}
+# Tabla de descriptivos para una seccion de resultados
+library(gt)
+library(tidyverse)
+
+tabla_desc <- tibble(
+  Variable = c(
+    "Comprension del habla en ruido",
+    "Puntaje cognitivo global",
+    "Tiempo de uso de audifono (horas/dia)",
+    "Edad (años)"
+  ),
+  n = c(60, 60, 58, 60),
+  M = c(63.4, 24.8, 7.1, 72.6),
+  SD = c(12.7, 3.1, 2.4, 5.8),
+  Min = c(31.0, 18.0, 2.0, 65.0),
+  Max = c(88.0, 30.0, 12.0, 84.0)
+)
+
+tabla_desc |>
+  gt() |>
+  tab_header(
+    title = "Tabla 1",
+    subtitle = md("*Estadisticos descriptivos de las variables del estudio*")
+  ) |>
+  fmt_number(columns = c(M, SD, Min, Max), decimals = 2) |>
+  tab_source_note(
+    "Nota. Los valores de n varian debido a datos perdidos. Datos simulados con fines didacticos."
+  )
+```
+
+Tabla 7
+
+*Errores frecuentes por seccion*
+
+| Seccion | Pregunta que responde | Error frecuente en estudiantes de fonoaudiologia |
+|---|---|---|
+| Introduccion | Por que este estudio? | Describir la condicion, pero no justificar el vacio |
+| Metodo | Como se hizo? | Omitir criterios de inclusion, instrumentos o condiciones sensoriales y cognitivas relevantes |
+| Resultados | Que se encontro? | Interpretar en lugar de reportar evidencia |
+| Discusion | Que significa? | Repetir resultados sin implicancias ni limites |
+
+Tabla 8
+
+*Checklist breve para revisar un manuscrito estudiantil*
+
+| Componente | Pregunta de control | Señal de calidad |
+|---|---|---|
+| Objetivo | Queda explicito y al final de la introduccion? | Se puede copiar en una sola frase |
+| Metodo | Otra persona podria entender como replicarlo? | Participantes, instrumentos y analisis estan descritos |
+| Resultados | Responden al objetivo y no a ideas nuevas? | Hay correspondencia entre objetivo y analisis |
+| Discusion | Interpreta sin sobregeneralizar? | Incluye limites e implicancias realistas |

@@ -1,0 +1,62 @@
+---
+title: "Capítulo 7. Ciencia abierta y reproducibilidad"
+---
+
+# Por qué hablar de ciencia abierta
+
+La ciencia abierta busca mejorar acceso, transparencia y trazabilidad del conocimiento. En los últimos años, la discusión sobre reproducibilidad ha mostrado que muchos hallazgos publicados son difíciles de verificar, replicar o reinterpretar debido a reportes incompletos, análisis poco transparentes o ausencia de materiales disponibles [@cos2015top].
+
+En fonoaudiología, esta conversación es especialmente pertinente. Las muestras pueden ser pequeñas, los contextos de intervención muy heterogéneos y las decisiones clínicas altamente sensibles a la calidad de la evidencia. Por eso, incorporar prácticas de apertura no es una moda editorial, sino una estrategia para fortalecer la confianza en lo que se reporta. En investigaciones sobre envejecimiento y cognición, esto se vuelve aún más importante debido a la diversidad funcional, la presencia de comorbilidades y la sensibilidad ética de muchos datos recogidos.
+
+# Reproducibilidad, replicabilidad y transparencia
+
+Aunque a veces se usan como sinónimos, estos términos no son idénticos. La transparencia se relaciona con declarar con claridad cómo se hizo un estudio. La reproducibilidad apunta a que otra persona pueda rehacer el flujo analítico con los mismos datos y obtener resultados equivalentes. La replicabilidad, en cambio, implica repetir el estudio con nuevos datos para evaluar si los hallazgos se sostienen.
+
+Esta distinción ayuda a delimitar metas realistas para una tesis de pregrado. No siempre será posible compartir datos sensibles o ejecutar una replicación independiente, pero sí es posible documentar procedimientos, conservar scripts, separar análisis confirmatorios y exploratorios, y dejar trazabilidad metodológica suficiente.
+
+# Principios FAIR y organización de materiales
+
+Los principios FAIR proponen que los datos y materiales sean encontrables, accesibles, interoperables y reutilizables. En términos prácticos, esto significa usar nombres de archivo claros, metadatos mínimos, formatos estables y una estructura de carpetas que permita comprender el proyecto sin depender de la memoria de una sola persona. Aunque FAIR y TOP no son equivalentes, ambas iniciativas convergen en promover prácticas más transparentes y reutilizables [@cos2015top].
+
+En investigaciones de fonoaudiología, también es importante considerar privacidad, consentimiento y sensibilidad de datos clínicos o educativos. Ciencia abierta no significa exponer información identificable. Significa tomar decisiones explícitas, justificadas y éticamente responsables sobre qué puede compartirse, cómo y bajo qué condiciones. En personas mayores, esto puede incluir resguardar datos sobre deterioro cognitivo, funcionalidad, diagnósticos concomitantes o trayectorias clínicas potencialmente identificables.
+
+# Preregistro y distinción entre análisis
+
+El preregistro consiste en declarar antes de observar los resultados principales cuál es la pregunta, qué hipótesis se pondrán a prueba, qué variables se analizarán y qué estrategia estadística se seguirá. Esto ayuda a reducir prácticas cuestionables como el p-hacking, el HARKing o la selección oportunista de resultados [@cos2015top].
+
+Separar análisis confirmatorios de exploratorios es una de las decisiones más pedagógicas y potentes para una tesis. Los análisis exploratorios no son inferiores; simplemente cumplen otra función. Generan hipótesis, identifican patrones y orientan investigaciones posteriores, pero no deben presentarse como si hubieran sido definidos a priori. Esto es muy relevante en estudios sobre audición y cognición, donde es común explorar múltiples asociaciones entre edad, pruebas cognitivas, comprensión en ruido y uso de audífonos.
+
+::: {.callout-warning}
+**Error frecuente:** Presentar hallazgos exploratorios como si hubieran sido definidos a priori. Esa confusión debilita la interpretación y la credibilidad del estudio.
+:::
+
+# Repositorios y compartición responsable
+
+Plataformas como OSF o Zenodo pueden utilizarse para compartir protocolos, scripts, materiales de evaluación autorizados, plantillas de consentimiento, tablas anonimizadas o apéndices técnicos. Sin embargo, antes de compartir cualquier archivo se debe evaluar si contiene datos sensibles, identificadores directos o información que pueda permitir reidentificación. En estudios con personas mayores, aun conjuntos pequeños pueden aumentar el riesgo de reconocimiento indirecto si combinan edad, diagnóstico, escolaridad, localidad y perfil cognitivo.
+
+::: {.callout-tip}
+**Consejo para tu tesis:** Si no puedes compartir datos completos por razones éticas, aun puedes compartir el diccionario de variables, los scripts de análisis, el flujo de limpieza y una descripción clara de las decisiones metodológicas.
+:::
+
+Tabla 14
+
+*Prácticas básicas de ciencia abierta para una tesis*
+
+| Práctica | Para qué sirve | Aplicación concreta |
+|---|---|---|
+| Preregistro | Distinguir confirmatorio de exploratorio | Declarar hipótesis y plan de análisis |
+| Repositorio de materiales | Facilitar transparencia | Compartir instrumentos autorizados y scripts |
+| Estructura reproducible | Ordenar trabajo | Separar datos, scripts y salidas |
+| Licencia clara | Permitir reutilización responsable | Definir condiciones de uso |
+| Anonimización | Reducir riesgo ético | Revisar variables sensibles en muestras de personas mayores |
+
+Tabla 15
+
+*Prácticas cuestionables y alternativa recomendable*
+
+| Práctica cuestionable | En qué consiste | Alternativa recomendable |
+|---|---|---|
+| p-hacking | Probar múltiples análisis hasta hallar significación | Declarar plan analítico y reportar decisiones |
+| HARKing | Formular hipótesis después de ver resultados | Diferenciar confirmatorio de exploratorio |
+| Cherry-picking | Reportar solo resultados favorables | Presentar hallazgos relevantes aunque no apoyen la hipotesis |
+| Omisión de materiales | No dejar trazabilidad del proceso | Compartir scripts, anexos y metadatos útiles |

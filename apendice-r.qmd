@@ -1,0 +1,60 @@
+---
+title: "Apendice. Codigo R reproducible"
+---
+
+# Instalacion de paquetes
+
+```{r eval=FALSE}
+paquetes <- c(
+  "tidyverse", "broom", "gt", "lme4",
+  "lavaan", "psych", "effectsize", "ggplot2"
+)
+
+install.packages(paquetes)
+```
+
+# Carga y simulacion de datos
+
+```{r}
+library(tidyverse)
+
+set.seed(2026)
+datos_tesis <- tibble(
+  id = 1:120,
+  area = rep(c("Lenguaje", "Audiologia"), each = 60),
+  edad_meses = round(runif(120, 48, 84)),
+  puntaje = round(rnorm(120, 60, 12), 1)
+)
+
+glimpse(datos_tesis)
+```
+
+# Estructura recomendada para una tesis
+
+```text
+tesis-fonoa/
+|- data/
+|- data-clean/
+|- scripts/
+|- outputs/
+|- manuscript/
+`- tesis-fonoa.Rproj
+```
+
+# Recursos adicionales
+
+- `psych`: estadisticos descriptivos, consistencia interna y psicometria basica.
+- `lavaan`: modelos de ecuaciones estructurales y analisis factorial confirmatorio.
+- `effectsize`: tamanos de efecto y estimacion complementaria.
+- `gt`: tablas pulidas para manuscritos y reportes.
+
+Tabla 11
+
+*Sugerencias practicas para organizar analisis en R*
+
+| Elemento | Recomendacion | Beneficio |
+|---|---|---|
+| Scripts numerados | `01_limpieza.R`, `02_analisis.R` | Mantiene secuencia clara |
+| Datos crudos | No modificarlos directamente | Preserva trazabilidad |
+| Outputs | Guardar tablas y figuras derivadas | Facilita escritura |
+| Proyecto R | Usar `.Rproj` o carpeta dedicada | Mejora reproducibilidad |

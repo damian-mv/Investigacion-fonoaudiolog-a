@@ -1,0 +1,7 @@
+---
+title: "Referencias"
+nocite: |
+  @*
+---
+
+Esta seccion reune las referencias citadas a lo largo del libro. La bibliografia se administra desde un archivo BibTeX centralizado para facilitar trazabilidad, actualizacion y consistencia de estilo.

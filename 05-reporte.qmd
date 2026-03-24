@@ -1,0 +1,73 @@
+---
+title: "Capítulo 5. Guías de reporte científico"
+---
+
+# Por qué existen guías de reporte
+
+Las guías de reporte surgieron para mejorar transparencia, completitud y utilidad de la literatura científica. Un estudio puede haber sido bien diseñado, pero si se reporta de forma incompleta, el lector no podrá evaluar su validez ni reutilizar adecuadamente sus hallazgos [@page2021prisma; @vonelm2007strobe].
+
+En fonoaudiología, esto es particularmente relevante porque conviven estudios clínicos, educativos, comunitarios, psicométricos y revisiones de evidencia. Cada uno requiere elementos de reporte parcialmente distintos. Por eso, usar una guía apropiada no es un trámite editorial: es una ayuda concreta para escribir mejor. Esto incluye estudios sobre envejecimiento y cognición, donde suele ser necesario reportar con especial cuidado criterios de inclusión, estado funcional, comorbilidades y condiciones sensoriales.
+
+# APA JARS y estándares generales
+
+Los estándares APA JARS son especialmente útiles en ciencias sociales, educación, lenguaje y comunicación. Su fortaleza está en ordenar de forma clara lo que debe declararse sobre muestra, procedimiento, medidas, estrategia analítica y limitaciones. Para una tesis de pregrado, JARS puede funcionar como una guía transversal incluso si luego se complementa con otros checklists. En trabajos sobre cognición y comunicación en personas mayores, JARS ayuda a explicitar con claridad cómo se definieron los constructos, qué pruebas se utilizaron y bajo qué condiciones se administraron.
+
+# EQUATOR Network y guías según el diseño
+
+La red EQUATOR agrupa guias de reporte segun el tipo de estudio. STROBE orienta estudios observacionales, PRISMA 2020 regula revisiones sistematicas, CONSORT se aplica a ensayos aleatorizados y AGREE II resulta util cuando se trabaja con guias de practica clinica o su evaluacion [@vonelm2007strobe; @page2021prisma; @hopewell2025consort].
+
+El estudiante no necesita memorizar todos los ítems de cada checklist. Lo importante es comprender la lógica de cada uno: explicitar cómo se seleccionaron participantes, cómo se definieron variables, cómo se gestionaron sesgos, cómo se sintetizó evidencia y qué tan transparentes fueron las decisiones metodológicas.
+
+::: {.callout-tip}
+**Consejo para tu tesis:** El mejor momento para revisar una guía de reporte no es al final, sino durante la planificación del estudio y la redacción del protocolo.
+:::
+
+# ICMJE y recomendaciones complementarias
+
+Las recomendaciones del ICMJE no reemplazan las guías de reporte por diseño, pero entregan un marco muy útil para autoría, conflicto de interés, originalidad, preparación del manuscrito y ética editorial. En proyectos de salud, incluso a nivel de tesis, ayudan a familiarizarse con las reglas del ecosistema de publicación científica [@icmje_recommendations].
+
+# Cómo usar una guía de reporte en la práctica
+
+Una estrategia recomendable es leer primero la guía correspondiente y luego convertir sus ítems en preguntas de control. Por ejemplo: ¿se definieron claramente los criterios de inclusión, se explicó cómo se midió la variable principal, se justificó el tamaño muestral, se describieron las pérdidas y se reportaron limitaciones? Esta lectura transforma el checklist en una herramienta de escritura, no solo de revisión final. En estudios de envejecimiento, también conviene preguntarse si el reporte deja claro el perfil cognitivo, funcional y auditivo de la muestra.
+
+::: {.callout-warning}
+**Error frecuente:** Usar la guía de reporte solo al final para "rellenar" omisiones. Si una decisión metodológica no se tomó a tiempo, la guía no puede corregir retrospectivamente ese vacío.
+:::
+
+Tabla 9
+
+*Guías de reporte por tipo de estudio*
+
+| Guía | Tipo de estudio | Relevancia en fonoaudiología |
+|---|---|---|
+| APA JARS | Cuantitativo, cualitativo, mixto | Muy alta |
+| STROBE | Observacional | Alta |
+| PRISMA 2020 | Revisión sistemática y metaanálisis | Alta |
+| CONSORT | Ensayo aleatorizado | Media-alta |
+| ICMJE | Manuscritos biomédicos generales | Media |
+| AGREE II | Guías de práctica clínica | Media |
+
+Tabla 10
+
+*Decisión práctica según el diseño*
+
+| Si tu estudio es... | Revisa primero... | Producto esperado |
+|---|---|---|
+| Transversal sobre prevalencia | STROBE | Checklist observacional |
+| Revisión sistemática | PRISMA 2020 | Diagrama de flujo y checklist |
+| Ensayo aleatorizado | CONSORT | Flujograma y reporte del ensayo |
+| Estudio cuantitativo en educación o lenguaje | APA JARS | Reporte metodológico detallado |
+| Evaluación de guía clínica | AGREE II | Valoración estructurada de calidad |
+| Estudio observacional sobre audición y cognición en personas mayores | STROBE y APA JARS | Reporte claro de muestra, medidas y análisis |
+
+Tabla 11
+
+*Preguntas de control al cerrar un manuscrito*
+
+| Área | Pregunta de control | Señal de buen reporte |
+|---|---|---|
+| Muestra | ¿Se explica quién participó y cómo fue reclutado? | Criterios y contexto claramente descritos |
+| Variables | ¿Se definieron conceptual y operacionalmente? | El lector entiende qué se midió y cómo |
+| Análisis | ¿Se informa qué se hizo y por qué? | Hay coherencia entre objetivo y técnica |
+| Limitaciones | ¿Se reconocen sesgos y restricciones? | La interpretación no exagera conclusiones |
+| Perfil clínico | ¿Se describen condiciones relevantes como audición, cognición o funcionalidad? | La muestra es interpretable para el lector |

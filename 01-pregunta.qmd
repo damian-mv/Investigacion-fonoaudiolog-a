@@ -1,0 +1,146 @@
+---
+title: "Capítulo 1. De la idea a la pregunta de investigación"
+---
+
+# Qué es investigar
+
+Investigar consiste en producir conocimiento de manera sistemática, acumulativa y revisable. En fonoaudiología, ello implica transformar inquietudes nacidas de la práctica clínica, educativa o comunitaria en preguntas explícitamente formuladas y susceptibles de ser respondidas con un diseño adecuado [@creswell2023]. La investigación no avanza solo por curiosidad; avanza cuando un problema se delimita con suficiente claridad como para decidir qué información falta, cómo obtenerla y con qué criterios interpretarla.
+
+Este punto es importante para estudiantes de pregrado porque muchas ideas de tesis surgen desde la experiencia cotidiana: una dificultad observada en la práctica, una brecha en la atención, una diferencia entre lo reportado por la literatura y lo que ocurre en el contexto local. Esas observaciones son valiosas, pero todavía no constituyen una pregunta de investigación.
+
+# Del tema al problema de investigación
+
+Un tema amplio, como "lenguaje en niños" o "cognición en personas mayores", aún no es investigable. El problema aparece cuando se delimita un vacío de conocimiento concreto, contextualizado y relevante. Por ejemplo, puede existir escasa evidencia local sobre la efectividad de la terapia fonológica en niños chilenos con trastorno del desarrollo del lenguaje, o sobre la relación entre deterioro cognitivo leve y desempeño en tareas de comprensión auditiva en personas mayores chilenas. La literatura especializada muestra, por ejemplo, que el desarrollo morfosintáctico y fonológico en poblaciones hispanohablantes o bilingües ofrece preguntas muy productivas para tesis en lenguaje y comunicación [@bedore2001grammatical; @fabiano2010phonological; @castillaearls2023morphosyntax].
+
+El paso clave entre tema y problema consiste en formular una tensión investigable. Esa tensión puede expresarse como ausencia de evidencia local, resultados contradictorios, debilidad metodológica en estudios previos, falta de instrumentos validados o necesidad de examinar una relación en una población específica.
+
+::: {.callout-warning}
+**Error frecuente:** Confundir interés personal con problema de investigación. Un tema puede ser atractivo, pero si no hay un vacío identificable, difícilmente guiará una tesis viable.
+:::
+
+## Delimitación progresiva
+
+Una forma simple de avanzar es pasar por cuatro niveles de precisión:
+
+1. Tema amplio.
+2. Area problematica.
+3. Vacio especifico.
+4. Pregunta investigable.
+
+Por ejemplo:
+
+- Tema amplio: comunicacion en personas mayores.
+- Área problemática: dificultades para comprender el habla en ruido.
+- Vacío específico: poca evidencia local sobre el papel de la cognición en esa dificultad en usuarios de audífonos.
+- Pregunta investigable: ¿en personas mayores usuarias de audífonos, la cognición global se asocia con la comprensión del habla en ruido durante un seguimiento de 6 meses?
+
+# Formulación de la pregunta
+
+Una buena pregunta de investigación suele precisar población, fenómeno o intervención, comparación cuando corresponda, resultado esperado y marco temporal. No todas las preguntas requieren exactamente la misma estructura, pero sí deben ser lo suficientemente claras como para orientar objetivos, variables, criterios de inclusión y estrategia de análisis.
+
+Las preguntas débiles suelen ser demasiado amplias, ambiguas o imposibles de operacionalizar. En cambio, una pregunta como "¿En niños chilenos de 4 a 6 años con TDL, la intervención fonológica de 12 semanas se asocia con mejoras en conciencia fonológica respecto de una atención habitual?" delimita población, comparación, resultado y tiempo. Del mismo modo, una pregunta como "¿En personas mayores usuarias de audífonos, la cognición global se asocia con la comprensión del habla en ruido durante el seguimiento a 6 meses?" integra una dimensión muy relevante para la práctica contemporánea en envejecimiento y audiología. Otra posibilidad, centrada en producción del lenguaje, sería preguntar: "¿La memoria de trabajo y la velocidad de procesamiento se asocian con el rendimiento en fluidez verbal semántica en personas mayores chilenas?"
+
+## Criterios FINER
+
+El marco FINER propone revisar si la pregunta es factible, interesante, novedosa, ética y relevante. Aunque parezca un esquema simple, su valor está en obligar a evaluar viabilidad antes de enamorarse de una idea [@creswell2023].
+
+- Factible: ¿existe acceso a muestra, instrumentos, tiempo y análisis posibles?
+- Interesante: ¿la pregunta sostiene motivación académica y pertinencia disciplinar?
+- Novedosa: ¿agrega algo a la literatura, aunque sea en contexto local o población específica?
+- Ética: ¿puede responderse sin comprometer derechos, bienestar o confidencialidad?
+- Relevante: ¿aporta a la disciplina, a la clínica, a la educación o a la salud pública?
+
+::: {.callout-tip}
+**Consejo para tu tesis:** Una buena pregunta de investigación no nace de la nada.
+Revisa la literatura disponible en PubMed, SciELO, Scopus, Web of Science y revistas clave del area como JSLHR antes de formularla.
+Pregúntate: ¿qué no se sabe todavía en mi área y mi contexto?
+:::
+
+# Pregunta clínica y pregunta de investigación
+
+La pregunta clínica orienta decisiones de evaluación o intervención en una persona o grupo concreto. La pregunta de investigación, en cambio, busca generar conocimiento transferible y justificable metodológicamente. Ambas pueden dialogar, pero no son equivalentes. Una pregunta clínica puede ser el punto de partida de una tesis, siempre que luego se transforme en una pregunta empírica delimitada. Esta transformación exige pasar de la decisión individual a un problema susceptible de observación sistemática y reporte académico [@apa2020].
+
+Por ejemplo, "¿Qué evaluación conviene usar con esta persona mayor que refiere dificultad para entender conversaciones familiares?" es una pregunta clínica. En cambio, "¿Qué variables auditivas y cognitivas se asocian con la comprensión del habla en ruido en personas mayores usuarias de audífonos?" es una pregunta de investigación.
+
+::: {.callout-important}
+**Para recordar:** La pregunta de investigación cumple una función estructurante. Si está mal formulada, objetivos, variables, análisis y conclusiones tienden a desalinearse.
+:::
+
+## Ejemplo de exploracion con datos simulados
+
+```{r}
+# Exploracion preliminar de datos clinicos simulados
+library(tidyverse)
+
+set.seed(2024)
+datos_fonologia <- tibble(
+  id = 1:80,
+  grupo = rep(c("TDL", "Desarrollo tipico"), each = 40),
+  puntaje_fonologico = c(
+    rnorm(40, mean = 52, sd = 9),
+    rnorm(40, mean = 74, sd = 8)
+  ),
+  edad_meses = c(
+    round(runif(40, 48, 72)),
+    round(runif(40, 48, 72))
+  )
+)
+
+datos_fonologia |>
+  group_by(grupo) |>
+  summarise(
+    n = n(),
+    M = mean(puntaje_fonologico),
+    SD = sd(puntaje_fonologico),
+    Min = min(puntaje_fonologico),
+    Max = max(puntaje_fonologico)
+  )
+
+ggplot(datos_fonologia, aes(x = grupo, y = puntaje_fonologico, fill = grupo)) +
+  geom_boxplot(alpha = 0.7) +
+  geom_jitter(width = 0.15, alpha = 0.4) +
+  labs(
+    title = "Rendimiento fonologico segun grupo",
+    x = "Grupo",
+    y = "Puntaje fonologico",
+    caption = "Datos simulados con fines didacticos"
+  ) +
+  scale_fill_manual(values = c("#2166AC", "#D1E5F0")) +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+Tabla 1
+
+*Componentes de una pregunta de investigación*
+
+| Componente | Descripción | Ejemplo (lenguaje) | Ejemplo (audiología) |
+|---|---|---|---|
+| Población | ¿En quiénes? | Niños de 4 a 6 años con TDL | Personas mayores con hipoacusia leve |
+| Fenómeno | ¿Qué se estudia? | Efectividad de intervención fonológica | Adherencia al uso de audífonos |
+| Contexto | ¿Dónde o cuándo? | Centros de salud familiar, Chile | Atención primaria |
+| Temporalidad | ¿Corte o seguimiento? | Pre-post a 3 meses | Seguimiento a 6 meses |
+
+Tabla 2
+
+*Ejemplos adicionales desde envejecimiento y cognición*
+
+| Elemento de la pregunta | Ejemplo |
+|---|---|
+| Población | Personas mayores de 65 años usuarias de audífonos |
+| Fenómeno | Asociación entre funcionamiento cognitivo y comprensión del habla en ruido |
+| Comparación | Personas con y sin sospecha de deterioro cognitivo leve |
+| Contexto | Atención ambulatoria o programas de rehabilitación auditiva en Chile |
+| Temporalidad | Evaluación basal y seguimiento a 6 meses |
+
+Tabla 3
+
+*Preguntas débiles y preguntas mejor formuladas*
+
+| Tipo | Ejemplo | Problema o fortaleza principal |
+|---|---|---|
+| Débil | ¿Cómo es el lenguaje en niños? | Es demasiado amplia y sin contexto |
+| Mejor formulada | ¿Cuál es el perfil de conciencia fonológica en niños chilenos de 5 años con TDL? | Delimita población, variable y contexto |
+| Débil | ¿Los audífonos ayudan a las personas mayores? | No especifica en qué, a quiénes ni cómo medirlo |
+| Mejor formulada | ¿En personas mayores con hipoacusia bilateral, el uso diario de audífonos se asocia con mejor comprensión del habla en ruido a 6 meses? | Permite operacionalizar exposición, resultado y tiempo |
+| Mejor formulada | ¿La memoria de trabajo predice el rendimiento en fluidez verbal semántica en personas mayores chilenas? | Delimita predictor, resultado y población |

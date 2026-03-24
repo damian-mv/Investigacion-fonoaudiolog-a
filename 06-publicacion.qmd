@@ -1,0 +1,74 @@
+---
+title: "Capítulo 6. Publicación y revisión por pares"
+---
+
+# Publicar como parte del ciclo científico
+
+La publicación científica no es un paso accesorio posterior a la tesis. Es la etapa en que un estudio se integra formalmente a la conversación académica. Aunque no toda tesis de pregrado llega a enviarse a una revista, comprender este proceso mejora desde temprano la manera de escribir, argumentar y reportar resultados.
+
+# Cómo elegir una revista
+
+Elegir una revista requiere alinear alcance temático, audiencia, idioma, indexación, tiempos editoriales, costos y tipo de artículo aceptado. En fonoaudiología, revistas como *Journal of Speech, Language, and Hearing Research*, *American Journal of Audiology*, *Language, Speech, and Hearing Services in Schools*, *International Journal of Audiology* y *Revista de Logopedia, Foniatría y Audiología* son referentes útiles para observar estándares de redacción, tipos de evidencia y conversaciones vigentes en el área. Si el foco del estudio está en envejecimiento, cognición, rehabilitación auditiva o comunicación en personas mayores, también conviene explorar revistas interdisciplinarias de gerontología, neuropsicología o audición.
+
+Una buena práctica consiste en revisar varios artículos recientes de la revista objetivo antes de enviar un manuscrito. Eso permite identificar tono, extensión, estructura del resumen, uso de tablas y grado de detalle metodológico esperado. Además, ayuda a detectar si la revista publica trabajos que articulan audición con envejecimiento cognitivo, fatiga comunicativa, esfuerzo auditivo o participación social.
+
+# Preparación del envío
+
+El envío de un manuscrito suele incluir carta de presentación, declaración de autoría, conflictos de interés, aprobación ética cuando corresponde, y apego estricto a normas de autor. También es habitual incorporar identificadores persistentes como ORCID. Muchas de estas exigencias se alinean con recomendaciones editoriales ampliamente aceptadas en ciencias de la salud [@icmje_recommendations].
+
+En esta etapa es importante distinguir autoría real de colaboración puntual. La autoría académica implica contribución sustantiva al diseño, análisis o escritura, y responsabilidad sobre el contenido final. Esta distinción es parte de la formación investigativa y ética del estudiantado.
+
+# Revisión por pares
+
+La revisión por pares puede ser simple ciego, doble ciego u abierta. Ninguno de estos formatos garantiza perfección, pero todos buscan someter el manuscrito a evaluación experta antes de su publicación. Para estudiantes, es útil entender que los comentarios de revisores suelen apuntar a claridad conceptual, solidez metodológica, consistencia analítica y precisión interpretativa. En manuscritos sobre personas mayores, es habitual que también examinen la justificación de la muestra, la descripción funcional de participantes y la interpretación de variables cognitivas. Un manuscrito con mejor adherencia a recomendaciones de reporte suele facilitar este proceso.
+
+::: {.callout-note}
+**Concepto clave:** Una revisión mayor no implica fracaso. Muchas veces indica que el manuscrito tiene potencial, pero necesita mejoras sustantivas antes de ser publicable.
+:::
+
+# Cómo responder a revisores
+
+Responder bien a revisores exige una actitud profesional y sistemática. Cada comentario debe ser abordado por separado, indicando si se aceptó la sugerencia, cómo se modificó el texto y en qué parte del manuscrito quedó el cambio. Cuando no se adopta una recomendación, la respuesta debe ser respetuosa y fundamentada.
+
+::: {.callout-tip}
+**Consejo para tu tesis:** Incluso si tu trabajo no se enviara de inmediato a una revista, escribir una versión "publicable" mejora la calidad del documento final y te entrena para proyectos futuros.
+:::
+
+# Identidad académica y visibilidad
+
+Herramientas como ORCID, perfiles institucionales, Google Scholar y métricas alternativas ayudan a consolidar una identidad académica trazable. En estudiantes de pregrado, su valor no está en acumular indicadores rápidamente, sino en aprender a organizar producción académica, afiliaciones y contribuciones de manera responsable.
+
+Tabla 12
+
+*Decisiones editoriales frecuentes*
+
+| Decisión | Qué significa | Qué hacer |
+|---|---|---|
+| Reject without review | No cumple criterios mínimos de ajuste o calidad | Ajustar enfoque o elegir otra revista |
+| Reject after review | No supera la revisión por pares | Replantear con base en comentarios |
+| Major revision | Cambios sustanciales requeridos | Responder punto por punto y revisar a fondo |
+| Minor revision | Ajustes acotados | Corregir con precisión y rapidez |
+| Accept | Aceptado | Revisar pruebas finales y metadatos |
+
+Tabla 13
+
+*Criterios prácticos para elegir una revista*
+
+| Criterio | Qué mirar | Riesgo si se ignora |
+|---|---|---|
+| Alcance temático | Si publica estudios de lenguaje, comunicación o audiología similares | Rechazo por desajuste editorial |
+| Audiencia | Clínica, educativa, investigativa o interdisciplinaria | Manuscrito poco pertinente para sus lectores |
+| Normas de autor | Extensión, formato, estilo de tablas y resumen | Retrabajo innecesario antes del envío |
+| Indexación | Bases donde aparece la revista | Menor visibilidad o pertinencia institucional |
+| Costos y acceso | APC, acceso abierto o modelo hibrido | Barreras economicas inesperadas |
+
+Tabla 14
+
+*Preguntas útiles si tu manuscrito aborda envejecimiento y cognición*
+
+| Pregunta | Para que sirve |
+|---|---|
+| ¿La revista publica trabajos con personas mayores o sobre audición y cognición? | Evaluar ajuste temático real |
+| ¿El público lector entenderá la relevancia fonoaudiológica del estudio? | Evitar desajuste disciplinar |
+| ¿Se espera mayor detalle sobre pruebas cognitivas y estado funcional? | Ajustar el nivel de reporte metodológico |
+| ¿La revista acepta enfoques interdisciplinarios? | Favorecer mejor recepción editorial |
