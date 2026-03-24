@@ -1,6 +1,6 @@
 # investigacion-fonoaudiologia
 
-Base inicial de un Quarto Book para estudiantes de fonoaudiologia.
+Primera versión Quarto Book para estudiantes de fonoaudiologia.
 
 ## Archivos principales
 
