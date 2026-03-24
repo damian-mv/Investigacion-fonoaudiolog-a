@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>6&nbsp; Capítulo 5. Guías de reporte científico – Diseño de Investigación y Comunicación Científica</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./06-publicacion.html" rel="next">
+<link href="./04-manuscrito.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-manuscrito.html">Parte II: Del Diseño al Manuscrito</a></li><li class="breadcrumb-item"><a href="./05-reporte.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Capítulo 5. Guías de reporte científico</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Diseño de Investigación y Comunicación Científica</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Prefacio</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Parte I: Del Problema al Diseño</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-pregunta.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Capítulo 1. De la idea a la pregunta de investigación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-objetivos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Capítulo 2. Objetivos, hipótesis y variables</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-disenos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Capítulo 3. Tipos de diseño de investigación</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Parte II: Del Diseño al Manuscrito</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-manuscrito.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Capítulo 4. Estructura del manuscrito científico</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-reporte.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Capítulo 5. Guías de reporte científico</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-publicacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Capítulo 6. Publicación y revisión por pares</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-ciencia-abierta.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Capítulo 7. Ciencia abierta y reproducibilidad</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./referencias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Referencias</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./apendice-r.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Apendice. Codigo R reproducible</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#por-qué-existen-guías-de-reporte" id="toc-por-qué-existen-guías-de-reporte" class="nav-link active" data-scroll-target="#por-qué-existen-guías-de-reporte"><span class="header-section-number">7</span> Por qué existen guías de reporte</a></li>
+  <li><a href="#apa-jars-y-estándares-generales" id="toc-apa-jars-y-estándares-generales" class="nav-link" data-scroll-target="#apa-jars-y-estándares-generales"><span class="header-section-number">8</span> APA JARS y estándares generales</a></li>
+  <li><a href="#equator-network-y-guías-según-el-diseño" id="toc-equator-network-y-guías-según-el-diseño" class="nav-link" data-scroll-target="#equator-network-y-guías-según-el-diseño"><span class="header-section-number">9</span> EQUATOR Network y guías según el diseño</a></li>
+  <li><a href="#icmje-y-recomendaciones-complementarias" id="toc-icmje-y-recomendaciones-complementarias" class="nav-link" data-scroll-target="#icmje-y-recomendaciones-complementarias"><span class="header-section-number">10</span> ICMJE y recomendaciones complementarias</a></li>
+  <li><a href="#cómo-usar-una-guía-de-reporte-en-la-práctica" id="toc-cómo-usar-una-guía-de-reporte-en-la-práctica" class="nav-link" data-scroll-target="#cómo-usar-una-guía-de-reporte-en-la-práctica"><span class="header-section-number">11</span> Cómo usar una guía de reporte en la práctica</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-manuscrito.html">Parte II: Del Diseño al Manuscrito</a></li><li class="breadcrumb-item"><a href="./05-reporte.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Capítulo 5. Guías de reporte científico</span></a></li></ol></nav>
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Capítulo 5. Guías de reporte científico</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="por-qué-existen-guías-de-reporte" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Por qué existen guías de reporte</h1>
+<p>Las guías de reporte surgieron para mejorar transparencia, completitud y utilidad de la literatura científica. Un estudio puede haber sido bien diseñado, pero si se reporta de forma incompleta, el lector no podrá evaluar su validez ni reutilizar adecuadamente sus hallazgos <span class="citation" data-cites="page2021prisma vonelm2007strobe">(<a href="#ref-page2021prisma" role="doc-biblioref">Page, McKenzie, Bossuyt, Boutron, Hoffmann, Mulrow, Shamseer, Tetzlaff, Akl, Brennan, Chou, Glanville, Grimshaw, Hróbjartsson, Lalu, Li, Loder, Mayo-Wilson, McDonald, McGuinness, Stewart, Thomas, Tricco, Welch, Whiting, Moher, 2021</a>; <a href="#ref-vonelm2007strobe" role="doc-biblioref">Elm, Altman, Egger, Pocock, Gøtzsche, Vandenbroucke, 2007</a>)</span>.</p>
+<p>En fonoaudiología, esto es particularmente relevante porque conviven estudios clínicos, educativos, comunitarios, psicométricos y revisiones de evidencia. Cada uno requiere elementos de reporte parcialmente distintos. Por eso, usar una guía apropiada no es un trámite editorial: es una ayuda concreta para escribir mejor. Esto incluye estudios sobre envejecimiento y cognición, donde suele ser necesario reportar con especial cuidado criterios de inclusión, estado funcional, comorbilidades y condiciones sensoriales.</p>
+</section>
+<section id="apa-jars-y-estándares-generales" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> APA JARS y estándares generales</h1>
+<p>Los estándares APA JARS son especialmente útiles en ciencias sociales, educación, lenguaje y comunicación. Su fortaleza está en ordenar de forma clara lo que debe declararse sobre muestra, procedimiento, medidas, estrategia analítica y limitaciones. Para una tesis de pregrado, JARS puede funcionar como una guía transversal incluso si luego se complementa con otros checklists. En trabajos sobre cognición y comunicación en personas mayores, JARS ayuda a explicitar con claridad cómo se definieron los constructos, qué pruebas se utilizaron y bajo qué condiciones se administraron.</p>
+</section>
+<section id="equator-network-y-guías-según-el-diseño" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> EQUATOR Network y guías según el diseño</h1>
+<p>La red EQUATOR agrupa guias de reporte segun el tipo de estudio. STROBE orienta estudios observacionales, PRISMA 2020 regula revisiones sistematicas, CONSORT se aplica a ensayos aleatorizados y AGREE II resulta util cuando se trabaja con guias de practica clinica o su evaluacion <span class="citation" data-cites="vonelm2007strobe page2021prisma hopewell2025consort">(<a href="#ref-vonelm2007strobe" role="doc-biblioref">Elm, Altman, Egger, Pocock, Gøtzsche, Vandenbroucke, 2007</a>; <a href="#ref-page2021prisma" role="doc-biblioref">Page, McKenzie, Bossuyt, Boutron, Hoffmann, Mulrow, Shamseer, Tetzlaff, Akl, Brennan, Chou, Glanville, Grimshaw, Hróbjartsson, Lalu, Li, Loder, Mayo-Wilson, McDonald, McGuinness, Stewart, Thomas, Tricco, Welch, Whiting, Moher, 2021</a>; <a href="#ref-hopewell2025consort" role="doc-biblioref">Hopewell, Chan, Collins, Hrobjartsson, Moher, Schulz, Tunn, Aggarwal, Berkwits, Berlin, Bhandari, Butcher, Campbell, Chidebe, Elbourne, Farmer, Fergusson, Golub, Goodman, Hoffmann, Ioannidis, Kahan, Knowles, Lamb, Lewis, Loder, Offringa, Ravaud, Richards, Rockhold, Schriger, Siegfried, Staniszewska, Taylor, Thabane, Torgerson, Vohra, White, Boutron, 2025</a>)</span>.</p>
+<p>El estudiante no necesita memorizar todos los ítems de cada checklist. Lo importante es comprender la lógica de cada uno: explicitar cómo se seleccionaron participantes, cómo se definieron variables, cómo se gestionaron sesgos, cómo se sintetizó evidencia y qué tan transparentes fueron las decisiones metodológicas.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Consejo para tu tesis:</strong> El mejor momento para revisar una guía de reporte no es al final, sino durante la planificación del estudio y la redacción del protocolo.</p>
+</div>
+</div>
+</section>
+<section id="icmje-y-recomendaciones-complementarias" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> ICMJE y recomendaciones complementarias</h1>
+<p>Las recomendaciones del ICMJE no reemplazan las guías de reporte por diseño, pero entregan un marco muy útil para autoría, conflicto de interés, originalidad, preparación del manuscrito y ética editorial. En proyectos de salud, incluso a nivel de tesis, ayudan a familiarizarse con las reglas del ecosistema de publicación científica <span class="citation" data-cites="icmje_recommendations">(<a href="#ref-icmje_recommendations" role="doc-biblioref">International Committee of Medical Journal Editors, 2026</a>)</span>.</p>
+</section>
+<section id="cómo-usar-una-guía-de-reporte-en-la-práctica" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Cómo usar una guía de reporte en la práctica</h1>
+<p>Una estrategia recomendable es leer primero la guía correspondiente y luego convertir sus ítems en preguntas de control. Por ejemplo: ¿se definieron claramente los criterios de inclusión, se explicó cómo se midió la variable principal, se justificó el tamaño muestral, se describieron las pérdidas y se reportaron limitaciones? Esta lectura transforma el checklist en una herramienta de escritura, no solo de revisión final. En estudios de envejecimiento, también conviene preguntarse si el reporte deja claro el perfil cognitivo, funcional y auditivo de la muestra.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Advertencia
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Error frecuente:</strong> Usar la guía de reporte solo al final para “rellenar” omisiones. Si una decisión metodológica no se tomó a tiempo, la guía no puede corregir retrospectivamente ese vacío.</p>
+</div>
+</div>
+<p>Tabla 9</p>
+<p><em>Guías de reporte por tipo de estudio</em></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Guía</th>
+<th>Tipo de estudio</th>
+<th>Relevancia en fonoaudiología</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>APA JARS</td>
+<td>Cuantitativo, cualitativo, mixto</td>
+<td>Muy alta</td>
+</tr>
+<tr class="even">
+<td>STROBE</td>
+<td>Observacional</td>
+<td>Alta</td>
+</tr>
+<tr class="odd">
+<td>PRISMA 2020</td>
+<td>Revisión sistemática y metaanálisis</td>
+<td>Alta</td>
+</tr>
+<tr class="even">
+<td>CONSORT</td>
+<td>Ensayo aleatorizado</td>
+<td>Media-alta</td>
+</tr>
+<tr class="odd">
+<td>ICMJE</td>
+<td>Manuscritos biomédicos generales</td>
+<td>Media</td>
+</tr>
+<tr class="even">
+<td>AGREE II</td>
+<td>Guías de práctica clínica</td>
+<td>Media</td>
+</tr>
+</tbody>
+</table>
+<p>Tabla 10</p>
+<p><em>Decisión práctica según el diseño</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Si tu estudio es…</th>
+<th>Revisa primero…</th>
+<th>Producto esperado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Transversal sobre prevalencia</td>
+<td>STROBE</td>
+<td>Checklist observacional</td>
+</tr>
+<tr class="even">
+<td>Revisión sistemática</td>
+<td>PRISMA 2020</td>
+<td>Diagrama de flujo y checklist</td>
+</tr>
+<tr class="odd">
+<td>Ensayo aleatorizado</td>
+<td>CONSORT</td>
+<td>Flujograma y reporte del ensayo</td>
+</tr>
+<tr class="even">
+<td>Estudio cuantitativo en educación o lenguaje</td>
+<td>APA JARS</td>
+<td>Reporte metodológico detallado</td>
+</tr>
+<tr class="odd">
+<td>Evaluación de guía clínica</td>
+<td>AGREE II</td>
+<td>Valoración estructurada de calidad</td>
+</tr>
+<tr class="even">
+<td>Estudio observacional sobre audición y cognición en personas mayores</td>
+<td>STROBE y APA JARS</td>
+<td>Reporte claro de muestra, medidas y análisis</td>
+</tr>
+</tbody>
+</table>
+<p>Tabla 11</p>
+<p><em>Preguntas de control al cerrar un manuscrito</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Área</th>
+<th>Pregunta de control</th>
+<th>Señal de buen reporte</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Muestra</td>
+<td>¿Se explica quién participó y cómo fue reclutado?</td>
+<td>Criterios y contexto claramente descritos</td>
+</tr>
+<tr class="even">
+<td>Variables</td>
+<td>¿Se definieron conceptual y operacionalmente?</td>
+<td>El lector entiende qué se midió y cómo</td>
+</tr>
+<tr class="odd">
+<td>Análisis</td>
+<td>¿Se informa qué se hizo y por qué?</td>
+<td>Hay coherencia entre objetivo y técnica</td>
+</tr>
+<tr class="even">
+<td>Limitaciones</td>
+<td>¿Se reconocen sesgos y restricciones?</td>
+<td>La interpretación no exagera conclusiones</td>
+</tr>
+<tr class="odd">
+<td>Perfil clínico</td>
+<td>¿Se describen condiciones relevantes como audición, cognición o funcionalidad?</td>
+<td>La muestra es interpretable para el lector</td>
+</tr>
+</tbody>
+</table>
+
+
+<!-- -->
+
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-page2021prisma" class="csl-entry" role="listitem">
+Matthew J. Page, Joanne E. McKenzie, Patrick M. Bossuyt, Isabelle Boutron, Tammy C. Hoffmann, Cynthia D. Mulrow, Larissa Shamseer, Jennifer M. Tetzlaff, Elie A. Akl, Sue E. Brennan, Roger Chou, Julie Glanville, Jeremy M. Grimshaw, Asbjørn Hróbjartsson, Manoj M. Lalu, Tianjing Li, Elizabeth W. Loder, Evan Mayo-Wilson, Steve McDonald, Luke A. McGuinness, Lesley A. Stewart, James Thomas, Andrea C. Tricco, Vivian A. Welch, Penny Whiting, y David Moher (2021). <a href="https://doi.org/10.1136/bmj.n71">The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews</a>. BMJ.
+</div>
+<div id="ref-vonelm2007strobe" class="csl-entry" role="listitem">
+Erik von Elm, Douglas G. Altman, Matthias Egger, Stuart J. Pocock, Peter C. Gøtzsche, y Jan P. Vandenbroucke (2007). <a href="https://doi.org/10.1097/EDE.0b013e3181577654">The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies</a>. Epidemiology.
+</div>
+<div id="ref-hopewell2025consort" class="csl-entry" role="listitem">
+Sally Hopewell, An-Wen Chan, Gary S. Collins, Asbjorn Hrobjartsson, David Moher, Kenneth F. Schulz, Ruth Tunn, Rakesh Aggarwal, Michael Berkwits, Jesse A. Berlin, Nita Bhandari, Nancy J. Butcher, Marion K. Campbell, Runcie C. W. Chidebe, Diana Elbourne, Andrew Farmer, Dean A. Fergusson, Robert M. Golub, Steven N. Goodman, Tammy C. Hoffmann, John P. A. Ioannidis, Brennan C. Kahan, Rachel L. Knowles, Sarah E. Lamb, Steff Lewis, Elizabeth Loder, Martin Offringa, Philippe Ravaud, Dawn P. Richards, Frank W. Rockhold, David L. Schriger, Nandi L. Siegfried, Sophie Staniszewska, Rod S. Taylor, Lehana Thabane, David Torgerson, Sunita Vohra, Ian R. White, y Isabelle Boutron (2025). <a href="https://doi.org/10.1136/bmj-2024-081123">CONSORT 2025 statement: Updated guideline for reporting randomised trials</a>. BMJ.
+</div>
+<div id="ref-icmje_recommendations" class="csl-entry" role="listitem">
+International Committee of Medical Journal Editors (2026). <a href="https://www.icmje.org/recommendations/">Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals</a>. ICMJE.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./04-manuscrito.html" class="pagination-link" aria-label="Capítulo 4. Estructura del manuscrito científico">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Capítulo 4. Estructura del manuscrito científico</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./06-publicacion.html" class="pagination-link" aria-label="Capítulo 6. Publicación y revisión por pares">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Capítulo 6. Publicación y revisión por pares</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Capítulo 5. Guías de reporte científico"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Por qué existen guías de reporte</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Las guías de reporte surgieron para mejorar transparencia, completitud y utilidad de la literatura científica. Un estudio puede haber sido bien diseñado, pero si se reporta de forma incompleta, el lector no podrá evaluar su validez ni reutilizar adecuadamente sus hallazgos <span class="co">[</span><span class="ot">@page2021prisma; @vonelm2007strobe</span><span class="co">]</span>.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>En fonoaudiología, esto es particularmente relevante porque conviven estudios clínicos, educativos, comunitarios, psicométricos y revisiones de evidencia. Cada uno requiere elementos de reporte parcialmente distintos. Por eso, usar una guía apropiada no es un trámite editorial: es una ayuda concreta para escribir mejor. Esto incluye estudios sobre envejecimiento y cognición, donde suele ser necesario reportar con especial cuidado criterios de inclusión, estado funcional, comorbilidades y condiciones sensoriales.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu"># APA JARS y estándares generales</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>Los estándares APA JARS son especialmente útiles en ciencias sociales, educación, lenguaje y comunicación. Su fortaleza está en ordenar de forma clara lo que debe declararse sobre muestra, procedimiento, medidas, estrategia analítica y limitaciones. Para una tesis de pregrado, JARS puede funcionar como una guía transversal incluso si luego se complementa con otros checklists. En trabajos sobre cognición y comunicación en personas mayores, JARS ayuda a explicitar con claridad cómo se definieron los constructos, qué pruebas se utilizaron y bajo qué condiciones se administraron.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu"># EQUATOR Network y guías según el diseño</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>La red EQUATOR agrupa guias de reporte segun el tipo de estudio. STROBE orienta estudios observacionales, PRISMA 2020 regula revisiones sistematicas, CONSORT se aplica a ensayos aleatorizados y AGREE II resulta util cuando se trabaja con guias de practica clinica o su evaluacion <span class="co">[</span><span class="ot">@vonelm2007strobe; @page2021prisma; @hopewell2025consort</span><span class="co">]</span>.</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>El estudiante no necesita memorizar todos los ítems de cada checklist. Lo importante es comprender la lógica de cada uno: explicitar cómo se seleccionaron participantes, cómo se definieron variables, cómo se gestionaron sesgos, cómo se sintetizó evidencia y qué tan transparentes fueron las decisiones metodológicas.</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>::: {.callout-tip}</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>**Consejo para tu tesis:** El mejor momento para revisar una guía de reporte no es al final, sino durante la planificación del estudio y la redacción del protocolo.</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu"># ICMJE y recomendaciones complementarias</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>Las recomendaciones del ICMJE no reemplazan las guías de reporte por diseño, pero entregan un marco muy útil para autoría, conflicto de interés, originalidad, preparación del manuscrito y ética editorial. En proyectos de salud, incluso a nivel de tesis, ayudan a familiarizarse con las reglas del ecosistema de publicación científica <span class="co">[</span><span class="ot">@icmje_recommendations</span><span class="co">]</span>.</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu"># Cómo usar una guía de reporte en la práctica</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>Una estrategia recomendable es leer primero la guía correspondiente y luego convertir sus ítems en preguntas de control. Por ejemplo: ¿se definieron claramente los criterios de inclusión, se explicó cómo se midió la variable principal, se justificó el tamaño muestral, se describieron las pérdidas y se reportaron limitaciones? Esta lectura transforma el checklist en una herramienta de escritura, no solo de revisión final. En estudios de envejecimiento, también conviene preguntarse si el reporte deja claro el perfil cognitivo, funcional y auditivo de la muestra.</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>::: {.callout-warning}</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>**Error frecuente:** Usar la guía de reporte solo al final para "rellenar" omisiones. Si una decisión metodológica no se tomó a tiempo, la guía no puede corregir retrospectivamente ese vacío.</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>Tabla 9</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>*Guías de reporte por tipo de estudio*</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Guía <span class="pp">|</span> Tipo de estudio <span class="pp">|</span> Relevancia en fonoaudiología <span class="pp">|</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> APA JARS <span class="pp">|</span> Cuantitativo, cualitativo, mixto <span class="pp">|</span> Muy alta <span class="pp">|</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> STROBE <span class="pp">|</span> Observacional <span class="pp">|</span> Alta <span class="pp">|</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> PRISMA 2020 <span class="pp">|</span> Revisión sistemática y metaanálisis <span class="pp">|</span> Alta <span class="pp">|</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> CONSORT <span class="pp">|</span> Ensayo aleatorizado <span class="pp">|</span> Media-alta <span class="pp">|</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> ICMJE <span class="pp">|</span> Manuscritos biomédicos generales <span class="pp">|</span> Media <span class="pp">|</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> AGREE II <span class="pp">|</span> Guías de práctica clínica <span class="pp">|</span> Media <span class="pp">|</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>Tabla 10</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>*Decisión práctica según el diseño*</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Si tu estudio es... <span class="pp">|</span> Revisa primero... <span class="pp">|</span> Producto esperado <span class="pp">|</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Transversal sobre prevalencia <span class="pp">|</span> STROBE <span class="pp">|</span> Checklist observacional <span class="pp">|</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Revisión sistemática <span class="pp">|</span> PRISMA 2020 <span class="pp">|</span> Diagrama de flujo y checklist <span class="pp">|</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Ensayo aleatorizado <span class="pp">|</span> CONSORT <span class="pp">|</span> Flujograma y reporte del ensayo <span class="pp">|</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Estudio cuantitativo en educación o lenguaje <span class="pp">|</span> APA JARS <span class="pp">|</span> Reporte metodológico detallado <span class="pp">|</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Evaluación de guía clínica <span class="pp">|</span> AGREE II <span class="pp">|</span> Valoración estructurada de calidad <span class="pp">|</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Estudio observacional sobre audición y cognición en personas mayores <span class="pp">|</span> STROBE y APA JARS <span class="pp">|</span> Reporte claro de muestra, medidas y análisis <span class="pp">|</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>Tabla 11</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>*Preguntas de control al cerrar un manuscrito*</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Área <span class="pp">|</span> Pregunta de control <span class="pp">|</span> Señal de buen reporte <span class="pp">|</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Muestra <span class="pp">|</span> ¿Se explica quién participó y cómo fue reclutado? <span class="pp">|</span> Criterios y contexto claramente descritos <span class="pp">|</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Variables <span class="pp">|</span> ¿Se definieron conceptual y operacionalmente? <span class="pp">|</span> El lector entiende qué se midió y cómo <span class="pp">|</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Análisis <span class="pp">|</span> ¿Se informa qué se hizo y por qué? <span class="pp">|</span> Hay coherencia entre objetivo y técnica <span class="pp">|</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Limitaciones <span class="pp">|</span> ¿Se reconocen sesgos y restricciones? <span class="pp">|</span> La interpretación no exagera conclusiones <span class="pp">|</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Perfil clínico <span class="pp">|</span> ¿Se describen condiciones relevantes como audición, cognición o funcionalidad? <span class="pp">|</span> La muestra es interpretable para el lector <span class="pp">|</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
