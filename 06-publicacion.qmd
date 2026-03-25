@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 6. Publicación y revisión por pares"
+title: "Capítulo 7. Publicación y revisión por pares"
 ---
 
 # Publicar como parte del ciclo científico

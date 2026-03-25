@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 5. Guías de reporte científico"
+title: "Capítulo 6. Guías de reporte científico"
 ---
 
 # Por qué existen guías de reporte

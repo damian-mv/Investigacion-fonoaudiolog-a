@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 7. Ciencia abierta y reproducibilidad"
+title: "Capítulo 8. Ciencia abierta y reproducibilidad"
 ---
 
 # Por qué hablar de ciencia abierta

@@ -16,6 +16,7 @@ book:
         - 03-disenos.qmd
     - part: "Parte II: Del Diseño al Manuscrito"
       chapters:
+        - 04-revisiones.qmd
         - 04-manuscrito.qmd
         - 05-reporte.qmd
         - 06-publicacion.qmd

@@ -1,0 +1,113 @@
+---
+title: "Capítulo 4. Tipos de revisiones de literatura"
+---
+
+# Por qué las revisiones importan
+
+Las revisiones de literatura cumplen una función central en la ciencia contemporánea: filtran, organizan y sintetizan una evidencia que crece más rápido de lo que una persona puede leer críticamente por sí sola. En ese sentido, no son un género "menor" ni un paso previo puramente introductorio, sino una forma de investigación que permite integrar hallazgos, identificar vacíos de conocimiento y orientar decisiones basadas en evidencia. En fonoaudiología, esto resulta especialmente valioso porque convergen estudios clínicos, educativos, comunitarios y psicométricos, muchas veces con diseños heterogéneos y poblaciones diversas.
+
+Una buena revisión también ayuda a evitar sesgos derivados de depender de un solo estudio llamativo o de una selección arbitraria de artículos. Además, cumple un rol pedagógico importante en tesis de pregrado: permite conocer rápidamente el estado del arte, construir un marco teórico más sólido y justificar por qué una nueva investigación es necesaria.
+
+::: {.callout-important}
+**Para recordar:** Revisar literatura no es solo "buscar artículos". Es tomar decisiones explícitas sobre qué evidencia incluir, cómo organizarla y qué inferencias son legítimas a partir de ella.
+:::
+
+# Principales tipos de revisión
+
+No todas las revisiones persiguen el mismo objetivo. Algunas buscan ofrecer una síntesis amplia y argumentativa; otras responder una pregunta muy específica con criterios explícitos; otras mapear qué se ha estudiado y qué no. Por eso, antes de comenzar, conviene definir qué tipo de revisión se ajusta mejor a la pregunta de investigación.
+
+En términos generales, una revisión narrativa sirve para contextualizar un tema y construir una interpretación argumentada del estado del arte. Una revisión sistemática intenta responder una pregunta delimitada mediante un protocolo explícito, reproducible y transparente. Una revisión de alcance o *scoping review* busca mapear la extensión, características y vacíos de un campo. El metaanálisis, en cambio, no es siempre un tipo de revisión independiente, sino una estrategia de síntesis cuantitativa que suele integrarse dentro de una revisión sistemática cuando los estudios son suficientemente comparables [@page2021prisma; @tricco2018prismascr].
+
+# Revisión narrativa
+
+La revisión narrativa es útil cuando se desea contextualizar un problema, integrar perspectivas teóricas o describir avances recientes en un área. En tesis de fonoaudiología puede ser especialmente valiosa para construir el marco conceptual de temas emergentes, discutir enfoques clínicos o presentar antecedentes interdisciplinarios sobre lenguaje, audición, envejecimiento o cognición.
+
+Su fortaleza principal es la flexibilidad. Permite amplitud temática, integración histórica y una discusión interpretativa más libre que otras revisiones. Sin embargo, esa misma flexibilidad implica riesgos: si no se explicitan criterios de selección, la revisión puede volverse excesivamente dependiente del juicio del autor, con menor transparencia y reproducibilidad. Por eso se recomienda describir cómo se seleccionaron las referencias, qué bases o fuentes se revisaron y con qué propósito se organizó la literatura. Herramientas como SANRA pueden orientar la calidad de este tipo de artículos [@baethge2019sanra].
+
+::: {.callout-tip}
+**Consejo para tu tesis:** Una revisión narrativa puede ser muy valiosa si declaras con honestidad su propósito, el criterio de selección de la literatura y los límites interpretativos del texto.
+:::
+
+# Revisión sistemática
+
+La revisión sistemática busca responder una pregunta específica mediante procedimientos planificados y transparentes. Suele partir de una pregunta delimitada, frecuentemente formulada con estructuras como PICOS, e incluye criterios explícitos de inclusión y exclusión, búsqueda en varias bases de datos, proceso documentado de selección de estudios, extracción de información y evaluación crítica del riesgo de sesgo [@page2021prisma].
+
+Su principal fortaleza es la rigurosidad metodológica. Al dejar trazabilidad de cada decisión, reduce el riesgo de selección arbitraria y aumenta la confianza en la síntesis final. En salud y ciencias de la rehabilitación, este tipo de revisión suele considerarse evidencia de alto nivel cuando está bien conducida. En fonoaudiología, por ejemplo, una revisión sistemática podría evaluar la efectividad de una intervención en conciencia fonológica, la precisión diagnóstica de una prueba o la asociación entre hipoacusia y declive cognitivo.
+
+Sus limitaciones también son importantes: requiere tiempo, formación metodológica, trabajo colaborativo y una pregunta suficientemente precisa. Además, no siempre es viable cuando la literatura es escasa, demasiado heterogénea o metodológicamente débil.
+
+# Revisión de alcance o *scoping review*
+
+La revisión de alcance, también llamada *scoping review*, es adecuada cuando el objetivo no es estimar con precisión un efecto, sino mapear qué se ha investigado, en qué poblaciones, con qué métodos y dónde persisten vacíos de evidencia. Por eso resulta especialmente útil en áreas emergentes, interdisciplinarias o todavía poco estructuradas [@tricco2018prismascr].
+
+En fonoaudiología, este tipo de revisión puede ser muy pertinente para explorar, por ejemplo, qué intervenciones se han estudiado en comunicación de personas mayores, qué instrumentos se usan para evaluar fatiga comunicativa o qué poblaciones han sido incluidas en estudios sobre fluidez verbal y envejecimiento. Su valor está en ofrecer un panorama amplio y ordenado, no en estimar un efecto promedio ni en producir conclusiones causales fuertes.
+
+Una *scoping review* exige igualmente transparencia en la búsqueda, en los criterios de inclusión y en la forma de organizar los resultados. La extensión PRISMA-ScR ayuda a reportarla de manera consistente [@tricco2018prismascr].
+
+# Metaanálisis
+
+El metaanálisis es una técnica estadística que combina cuantitativamente los resultados de estudios comparables. En la práctica, suele formar parte de una revisión sistemática y no reemplaza por sí solo la necesidad de una pregunta clara, una búsqueda rigurosa ni una evaluación crítica del riesgo de sesgo. Su principal aporte es estimar un efecto conjunto y explorar heterogeneidad entre estudios cuando existen datos suficientemente homogéneos en diseño, población, intervención y desenlaces [@page2021prisma].
+
+No toda revisión sistemática incluye metaanálisis. Si los estudios son demasiado distintos entre sí, si reportan desenlaces incompatibles o si la calidad metodológica es muy desigual, puede ser más apropiado realizar una síntesis cualitativa. En otras palabras, el metaanálisis es una posibilidad metodológica potente, pero no una obligación.
+
+# Cómo elegir el tipo de revisión adecuado
+
+La elección depende, ante todo, del propósito de la pregunta. Si se busca comprender de forma amplia qué se sabe sobre un tema y construir una discusión argumentativa, una revisión narrativa puede ser suficiente. Si se necesita responder una pregunta específica sobre efectividad, asociación o precisión diagnóstica, una revisión sistemática resulta más adecuada. Si el objetivo es mapear qué existe y detectar vacíos, la revisión de alcance suele ser la mejor opción. Si además hay estudios comparables y se pretende estimar un efecto conjunto, puede añadirse un metaanálisis.
+
+Una buena decisión metodológica parte de una pregunta honesta sobre el objetivo real del trabajo. Presentar una revisión narrativa como si fuera sistemática, o llamar metaanálisis a una simple tabla comparativa, genera confusión y debilita la credibilidad académica del manuscrito.
+
+::: {.callout-warning}
+**Error frecuente:** Llamar "revisión sistemática" a una búsqueda bibliográfica sin protocolo explícito, sin criterios claros de selección y sin diagrama de flujo.
+:::
+
+# Protocolo, registro y transparencia
+
+En revisiones sistemáticas, y muchas veces también en *scoping reviews*, es recomendable contar con un protocolo previo. Este protocolo explicita la pregunta, los criterios de inclusión, las fuentes de información, la estrategia de búsqueda, el proceso de selección y la forma de síntesis. Registrarlo antes de iniciar la revisión ayuda a prevenir cambios oportunistas después de observar los resultados y reduce duplicación innecesaria de esfuerzos.
+
+PROSPERO es un registro ampliamente utilizado para revisiones sistemáticas en salud, mientras que OSF ofrece una alternativa más flexible y transversal para registrar distintos tipos de proyectos, incluidas revisiones narrativas, sistemáticas y de alcance. En el contexto de formación, incluso cuando no se complete un registro formal, pensar la revisión como un proyecto con protocolo mejora notablemente su calidad metodológica.
+
+# Riesgo de sesgo y herramientas de apoyo
+
+Una diferencia crucial entre revisar literatura y hacer una revisión sistemática es que esta última exige una evaluación explícita de la calidad o del riesgo de sesgo de los estudios incluidos. Esa evaluación no es un detalle accesorio: afecta directamente la confianza que puede depositarse en las conclusiones. Herramientas como RoB 2, ROBINS-I o QUADAS-2 se usan según el tipo de estudio primario considerado.
+
+También existen plataformas que facilitan el trabajo práctico. Rayyan, por ejemplo, ayuda a importar referencias, eliminar duplicados, hacer cribado de títulos y resúmenes y trabajar en colaboración entre revisores. Estas herramientas no reemplazan el juicio metodológico, pero sí ordenan el proceso y mejoran su trazabilidad.
+
+# Buenas prácticas y errores comunes
+
+Las buenas prácticas en revisiones narrativas incluyen explicar el criterio de selección de referencias, organizar el texto con claridad argumentativa y dejar visible qué aporta cada fuente al razonamiento. En revisiones sistemáticas, destacan el preregistro del protocolo, el uso de PRISMA desde el inicio, la búsqueda en varias bases de datos y la evaluación del riesgo de sesgo. En *scoping reviews*, es fundamental explicitar el alcance, los criterios de inclusión, las fuentes consultadas y los vacíos detectados.
+
+Entre los errores comunes están la selección subjetiva no justificada, la falta de transparencia en la búsqueda, la omisión de criterios de exclusión, el uso de una sola base de datos y la presentación de revisiones panorámicas como si tuvieran la rigurosidad de una revisión sistemática. En docencia y tesis de pregrado, estos errores suelen aparecer no por mala intención, sino por no distinguir con claridad qué exige cada tipo de revisión.
+
+Tabla 12
+
+*Comparación entre tipos de revisión*
+
+| Tipo de revisión | Objetivo principal | Protocolo | Síntesis esperada | Uso típico |
+|---|---|---|---|---|
+| Narrativa | Contextualizar, discutir y generar hipótesis | No siempre explícito, pero recomendable | Síntesis interpretativa | Estado del arte o marco conceptual |
+| Sistemática | Responder una pregunta específica | Explícito, transparente y reproducible | Síntesis cualitativa y, a veces, metaanálisis | Efectividad, asociación, precisión diagnóstica |
+| Scoping review | Mapear lo estudiado e identificar vacíos | Recomendable y transparente | Panorama descriptivo del campo | Campos emergentes o heterogéneos |
+| Metaanálisis | Combinar resultados cuantitativos comparables | Requiere base sistemática previa | Estimación conjunta del efecto | Estudios homogéneos con datos comparables |
+
+Tabla 13
+
+*Buenas prácticas y errores frecuentes*
+
+| Tipo | Buenas prácticas | Errores frecuentes |
+|---|---|---|
+| Narrativa | Explicitar criterios de selección, estructurar el argumento, resumir aportes clave | Selección subjetiva sin justificar, exceso de opinión, falta de método visible |
+| Sistemática | Protocolo, PRISMA, varias bases, riesgo de sesgo | No reportar exclusiones, omitir diagrama, usar una sola base |
+| Scoping review | Delimitar alcance, describir fuentes, mapear vacíos | Presentarla como sistemática, no definir alcance, búsqueda poco transparente |
+| Metaanálisis | Justificar comparabilidad y heterogeneidad | Combinar estudios incompatibles o sin evaluación crítica previa |
+
+Tabla 14
+
+*Pregunta orientadora y tipo de revisión sugerido*
+
+| Si quieres responder... | Tipo de revisión más adecuado |
+|---|---|
+| ¿Qué se sabe hasta ahora sobre un tema amplio? | Narrativa |
+| ¿Una intervención es efectiva frente a comparación o control? | Sistemática, con posible metaanálisis |
+| ¿Qué intervenciones, poblaciones y métodos se han estudiado en un campo? | Scoping review |
+| ¿Cuál es el tamaño promedio del efecto entre estudios comparables? | Metaanálisis dentro de una revisión sistemática |
+
