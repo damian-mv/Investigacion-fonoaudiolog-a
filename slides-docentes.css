@@ -1,0 +1,292 @@
+:root {
+  --slides-navy: #16324f;
+  --slides-teal: #2d728f;
+  --slides-sand: #f4efe6;
+  --slides-ink: #1f2933;
+  --slides-coral: #d96c47;
+  --slides-gold: #c89b3c;
+}
+
+.reveal {
+  font-family: "Avenir Next", Avenir, "Trebuchet MS", sans-serif;
+  color: var(--slides-ink);
+  font-size: 28px;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slide-background-content {
+  background:
+    radial-gradient(circle at top right, rgba(200, 155, 60, 0.16), transparent 28%),
+    linear-gradient(135deg, #f8f5ef 0%, #eef5f4 100%);
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  color: var(--slides-navy);
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.reveal h1 {
+  font-size: 1.6em;
+  line-height: 1.08;
+  margin-bottom: 0.35em;
+}
+
+.reveal h2 {
+  font-size: 1em;
+  color: var(--slides-teal);
+  margin-top: 0.25em;
+  margin-bottom: 0.45em;
+}
+
+.reveal h3 {
+  font-size: 0.9em;
+}
+
+.reveal p,
+.reveal li {
+  line-height: 1.28;
+}
+
+.reveal ul,
+.reveal ol {
+  margin-top: 0.35em;
+}
+
+.reveal strong {
+  color: var(--slides-navy);
+}
+
+.reveal blockquote {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.9rem 1.1rem;
+  border-left: 6px solid var(--slides-coral);
+  background: rgba(255, 255, 255, 0.68);
+  box-shadow: none;
+  font-style: normal;
+}
+
+.reveal table {
+  width: 100%;
+  margin-top: 0.7rem;
+  font-size: 0.62em;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(22, 50, 79, 0.08);
+}
+
+.reveal table thead tr,
+.reveal table tr:first-child {
+  background: var(--slides-navy);
+  color: #ffffff;
+}
+
+.reveal table th,
+.reveal table td {
+  padding: 0.65rem 0.8rem;
+  border: none;
+}
+
+.reveal table tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.reveal table tbody tr:nth-child(even) {
+  background: rgba(45, 114, 143, 0.08);
+}
+
+.reveal code {
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  background: rgba(22, 50, 79, 0.08);
+  color: var(--slides-navy);
+  padding: 0.12em 0.35em;
+  border-radius: 0.35em;
+}
+
+.reveal pre code {
+  display: block;
+  background: #10253a;
+  color: #f7fbff;
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  font-size: 0.7em;
+  line-height: 1.35;
+}
+
+.reveal .slides section.center,
+.reveal .slides section.center h1,
+.reveal .slides section.center h2,
+.reveal .slides section.center h3,
+.reveal .slides section.center p,
+.reveal .slides section.center li {
+  color: #111111;
+}
+
+.reveal .slides section.center h2 {
+  color: #111111;
+}
+
+.reveal .slide-number {
+  background: rgba(22, 50, 79, 0.82);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  right: 16px;
+  bottom: 12px;
+}
+
+.reveal .footer {
+  color: var(--slides-navy);
+  font-size: 0.46em;
+  letter-spacing: 0.04em;
+}
+
+.reveal .title-slide {
+  text-align: left;
+  padding: 2.2rem 2rem;
+}
+
+.reveal .title-slide h1 {
+  max-width: 10em;
+  font-size: 2.15em;
+}
+
+.reveal .title-slide h2,
+.reveal .title-slide .subtitle {
+  color: var(--slides-coral);
+  font-family: "Avenir Next", Avenir, "Trebuchet MS", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.reveal .title-slide .quarto-title-author,
+.reveal .reveal .title-slide .date {
+  color: var(--slides-ink);
+}
+
+.reveal .title-slide::after {
+  content: "";
+  position: absolute;
+  right: 6%;
+  top: 10%;
+  width: 200px;
+  height: 200px;
+  border-radius: 24px;
+  background:
+    linear-gradient(160deg, rgba(45, 114, 143, 0.9), rgba(22, 50, 79, 0.95));
+  transform: rotate(12deg);
+  box-shadow: 0 20px 48px rgba(22, 50, 79, 0.18);
+}
+
+.reveal .title-slide::before {
+  content: "";
+  position: absolute;
+  right: 10%;
+  top: 16%;
+  width: 120px;
+  height: 120px;
+  border: 3px solid rgba(17, 17, 17, 0.5);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.reveal .section-icon {
+  margin-top: 1rem;
+  width: 92px;
+  height: 92px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+}
+
+.reveal .section-icon svg {
+  width: 48px;
+  height: 48px;
+  stroke: #111111;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.reveal .mermaid {
+  margin-top: 0.8rem;
+  padding: 1rem 1.1rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 14px 34px rgba(22, 50, 79, 0.1);
+}
+
+.reveal .mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.reveal .mermaid .node rect,
+.reveal .mermaid .node polygon,
+.reveal .mermaid .node circle,
+.reveal .mermaid .node path {
+  fill: #f9f6ef !important;
+  stroke: var(--slides-teal) !important;
+  stroke-width: 2px !important;
+}
+
+.reveal .mermaid .node .label,
+.reveal .mermaid .nodeLabel,
+.reveal .mermaid .edgeLabel {
+  color: var(--slides-navy) !important;
+  font-family: "Avenir Next", Avenir, "Trebuchet MS", sans-serif !important;
+}
+
+.reveal .mermaid .edgeLabel rect {
+  fill: rgba(255, 255, 255, 0.95) !important;
+  stroke: rgba(22, 50, 79, 0.08) !important;
+}
+
+.reveal .mermaid .edgePath path,
+.reveal .mermaid .flowchart-link {
+  stroke: var(--slides-coral) !important;
+  stroke-width: 2.4px !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+}
+
+.reveal .mermaid marker path {
+  fill: var(--slides-coral) !important;
+  stroke: var(--slides-coral) !important;
+}
+
+.reveal .mermaid .cluster rect {
+  fill: rgba(45, 114, 143, 0.08) !important;
+  stroke: rgba(45, 114, 143, 0.45) !important;
+}
+
+.reveal section[data-state="has-dark-background"] h1,
+.reveal section[data-state="has-dark-background"] h2,
+.reveal section[data-state="has-dark-background"] p,
+.reveal section[data-state="has-dark-background"] li {
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .reveal {
+    font-size: 26px;
+  }
+
+  .reveal .title-slide::after,
+  .reveal .title-slide::before {
+    display: none;
+  }
+}

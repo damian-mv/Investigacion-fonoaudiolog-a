@@ -5,8 +5,6 @@ site_libs/
 *.html
 *.tex
 presentacion-semana-1.qmd
-presentacion-semana-2.qmd
-slides-docentes.css
 
 /.quarto/
 **/*.quarto_ipynb
