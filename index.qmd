@@ -28,12 +28,6 @@ Este libro usa callouts para destacar ideas importantes, recomendaciones prácti
 **Concepto clave:** Cuando veas una cita en formato `[@clave]`, la referencia completa se encuentra en `references.bib` y se listará en la sección final del libro.
 :::
 
-# Material complementario
-
-Además del libro, este proyecto incluye una presentación docente asociada a la segunda sesión del curso:
-
-- [Presentación Semana 2: de las revisiones al manuscrito y la ciencia abierta](presentacion-semana-2.html)
-
 # Cómo citar este libro
 
 Medina Valdebenito, D. (2026). *Diseño de investigación y comunicación científica: Guía para estudiantes de fonoaudiología* (Versión Quarto Book). GitHub Pages. https://[URL-DEL-SITIO]
